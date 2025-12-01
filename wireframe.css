@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.note {
+    font-size: 14px;
+    color: #777;
+}
+
+.wireframe-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.wireframe {
+    width: 350px;
+}
+
+.sketch {
+    border: 3px solid black;
+    padding: 10px;
+    background: white;
+}
+
+.sketch > div {
+    border: 2px dashed black;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+/* Desktop sketch proportions */
+.desktop .nav { height: 50px; }
+.desktop .hero { height: 120px; }
+.desktop .content { height: 140px; }
+.desktop .footer { height: 40px; }
+
+/* Mobile sketch proportions */
+.mobile .nav { height: 35px; }
+.mobile .hero { height: 80px; }
+.mobile .content { height: 100px; }
+.mobile .footer { height: 30px; }
+
+.write-up {
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
